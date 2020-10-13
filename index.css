@@ -1,0 +1,492 @@
+.first{
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a{
+  color: white;
+}
+.co-link {
+color:rgb(98, 98, 184);
+}
+.email{
+  margin-top: 30px;
+}
+.ml-6{
+    margin-left: 10px;
+}
+
+body{
+    margin: 0 auto;
+    width: 65%;
+   
+}
+.imp{
+    border: 1px solid grey;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+    }
+  }
+
+
+
+   .main-div{
+      
+      display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(241, 238, 238);
+  
+     
+  }
+
+  @media only screen and (max-width: 600px) {
+    .first-div, .second-div{
+        
+        width: 100%;
+        
+    }
+  }
+
+ 
+  
+  
+
+  .first-div {
+width: 490px;
+height: 335px;
+
+padding: 15px;
+
+  }
+
+  .first-div > h5{
+    color: #386d95;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+
+  }
+
+  .second-div{
+      padding-top: 15px;
+    width: 491px;
+    height: 335px;
+  
+  }
+
+  .second-div > h6 {
+    color: #0058B0;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+
+  .third-div{
+      padding: 10px 0px 5px 10px;
+      background-color: rgb(0, 168, 168);;
+      
+  }
+
+  .news{
+      padding: 10px;
+  }
+
+  .news > h6 {
+    color: #0058B0;
+    font-weight: bold;
+    
+  }
+
+  .third-div > ul li{
+      font-size: 12px;
+      
+  }
+
+  .news > p{
+      font-size: 13px;
+  }
+
+  .first-div >p{
+      font-size: 15px;
+  }
+
+  .tag{
+      text-align: center;
+  }
+
+
+
+
+  /* About Us */
+
+.first-about{
+    width: 430px;
+height: 200px;
+
+
+}
+
+.second-about{
+    width: 320px;
+height: 200px;
+background-color:rgb(0, 168, 168);
+}
+
+.second-about > a{
+  color: inherit
+}
+
+.third-about{
+    width: 230px;
+height: 200px;
+background-color: brown; 
+}
+
+
+.product{
+   padding: 0px 50px 0px 55px;
+}
+
+.product:hover{
+    background-color: #97CACA;
+}
+
+.about-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact{
+    width: 340px;
+height: 300px;
+padding: 20px;
+
+}
+
+.about > h4 {
+color: #008080;
+font-weight: bolder;
+text-align: center;
+}
+
+.contact > h4 {
+  color: #0057AE;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.about{
+     width: 640px;
+height: 1100px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact, .about{
+        width: 100%;
+        
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+     .about{
+         height: 1400px;
+        width: 100%;
+        
+    }
+    .contact{
+        margin-bottom: 10px;
+    }
+  }
+
+
+  /* KAY MRP PAGE */
+
+  .contact-mrp{
+ width: 340px;
+height: 650px;
+padding: 20px;
+
+
+
+  }
+
+  .kay-mrp{
+  width: 640px;
+height: 650px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+  .cont-num > li{
+list-style: none;
+  }
+ 
+
+  @media only screen and (max-width: 600px) {
+    .contact-mrp, .kay-mrp{
+        width: 100%;
+        
+    }
+    .kay-mrp{
+        height: 800px;
+    }
+  }
+
+
+
+  /* Kay QRM Page */
+
+  .contact-qrp{
+ width: 340px;
+height: 2200px;
+padding: 20px;
+
+
+
+  }
+
+  .kay-qrp{
+  width: 640px;
+height: 2200px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+  .cont-num > li{
+list-style: none;
+  }
+ 
+
+  @media only screen and (max-width: 600px) {
+    .contact-qrp, .kay-qrp{
+        width: 100%;
+        
+    }
+    .kay-qrp{
+        height: 800px;
+    }
+  }
+
+
+  /* Web Development Page */
+
+  .kay-web{
+ width: 340px;
+height: 1000px;
+padding: 20px;
+
+
+
+  }
+
+  .web-service{
+  width: 640px;
+height: 1000px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+  .cont-num > li{
+list-style: none;
+  }
+ 
+
+  @media only screen and (max-width: 600px) {
+    .kay-web, .web-service{
+        width: 100%;
+        
+    }
+    .web-service{
+        height: 13x00px;
+    }
+  }
+
+
+  /* Software Validate */
+
+  .sof-contact{
+ width: 340px;
+height: 320px;
+padding: 20px;
+
+
+
+  }
+
+  .sof-about{
+  width: 640px;
+height: 550px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+  .cont-num > li{
+list-style: none;
+  }
+ 
+
+  @media only screen and (max-width: 600px) {
+    .sof-contact, .sof-about{
+        width: 100%;
+        
+    }
+    .sof-about{
+        height: 800px;
+    }
+  }
+
+
+  /* Product List Page */
+
+
+  .prod-contact{
+width: 340px;
+height: 320px;
+padding: 20px;
+  }
+
+  .prod-list{
+  width: 640px;
+height: 450px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+   @media only screen and (max-width: 600px) {
+    .prod-contact, .prod-list{
+        width: 100%;
+        
+    }
+    .prod-list{
+        height: 800px;
+    }
+  }
+
+
+  /* BeSpoke List Page */
+
+  ul{
+    list-style-image: url(./point.jpg);
+  }
+
+
+  .bespoke-contact{
+width: 340px;
+height: 320px;
+padding: 20px;
+  }
+
+  .bespoke{
+width: 640px;
+height: 1550px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .bespoke-contact, .bespoke{
+        width: 100%;
+    }
+    .bespoke{
+        height: 1900px;
+    }
+  }
+
+
+  /* AL Quran */
+
+  .alquran{
+    padding: 50px;
+  }
+
+  .alquran > h4 {
+    font-weight: bolder;
+  }
+
+
+  /* Contact Page */
+  .contact-us{
+width: 340px;
+height: 420px;
+padding-top: 50px;
+
+  }
+  .contact-detail
+  {
+width: 640px;
+height: 490px;
+background-color: rgb(247, 243, 243);
+padding: 100px;
+  }
+
+
+
+  /* Client List Page */
+
+  .client-contact{
+width: 340px;
+height: 990px;
+padding: 20px;
+  }
+  .client{
+width: 640px;
+height: 1200px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+  .kay-client{
+    padding: 0px 20px 0px 20px;
+  }
+
+  .val-client{
+    padding: 10px 20px 10px 20px ;
+  }
+
+
+  /* kay Financial Page */
+
+  .financial-contact{
+width: 340px;
+height: 500px;
+padding: 20px;
+  }
+  .kay-financial{
+width: 640px;
+height: 3200px;
+background-color: rgb(247, 243, 243);
+padding: 20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .financial-contact, .kay-financial{
+        width: 100%;
+    }
+    .kay-financial{
+        height: 3500px;
+    }
+  }
+
+
+  p{
+    text-align: justify;
+  }
+
+
+  
